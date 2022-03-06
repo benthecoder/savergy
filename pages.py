@@ -150,7 +150,7 @@ def pred_page():
     energy_saved = round(cost_saved / 0.35, 3)
 
     st.subheader(
-        f"If you subscribed for notifications from us, and follow our advice, you can save ${round(cost_saved, 3)} and ${energy_saved} in the next 30 days"
+        f"If you subscribed for notifications from us, and follow our advice, you can save ${round(cost_saved, 3)} and {energy_saved} kW in the next 30 days"
     )
 
     next_day_temp = day_temp[0]
